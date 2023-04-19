@@ -7,24 +7,23 @@ package start;
 import java.util.*;
 import java.io.*;
 import java.lang.System;
-
 /**
  *
  * @author Admin
  */
-public class relationalop {
+public class arithmaticop {
     public static void main(String[] args) {
+
         int a,b;
-        System.out.println("enter two numbers");
         Scanner sc=new Scanner(System.in);
+        System.out.println("enter two numbers");
         a=sc.nextInt();
         b=sc.nextInt();
-        System.out.println(a>b);
-        System.out.println(a<b);
-        System.out.println(a<=b);
-        System.out.println(a>=b);
-        System.out.println(a==b);
-        System.out.println(a!=b);
+        System.out.println("the sum is "+(a+b));
+        System.out.println("the difference is "+(a-b));
+        System.out.println("the multiply is "+(a*b));
+        System.out.println("the div is "+(a/b));
+        System.out.println("the remainder is "+(a%b));
     }
 
 }
